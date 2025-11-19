@@ -1,21 +1,20 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Page1 from "./Page1";
-import Page2 from "./Page2";
-import Page3 from "./Page3";
-import Page4 from "./Page4";
+import Log from "./Log";
+import Signup from "./Signup";
+import Upgrade from "./Upgrade";
+import Web from "./Web";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Page1 />} />
-        <Route path="/page2" element={<Page2 />} />
-        <Route path="/page3" element={<Page3 />} />
-        <Route path="/page4" element={<Page4 />} />
+        <Route path="/" element={<Log />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/upgrade" element={<Upgrade />} />
+        <Route path="/web" element={<Web />} />
       </Routes>
     </Router>
   );
 }
+
 export default App;
-
-
