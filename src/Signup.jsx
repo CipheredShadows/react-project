@@ -50,17 +50,17 @@ const Signup = () => {
         </form>
       </div>
       <div className='flex flex-col items-center mt-7 gap-5'>
-              {/* Google */}
+           
               <div className='relative h-12 w-full max-w-md bg-white shadow-lg flex items-center justify-center rounded-md transition-all duration-200 hover:-translate-y-1'>
                 <img src={Google} className='absolute left-3 h-9 w-10'/>
                 <div>Continue with Google</div>
               </div>
-              {/* Facebook */}
+          
               <div style={{ backgroundColor: "#1877f2" }} className='relative h-12 w-full max-w-md flex items-center justify-center rounded-md text-white transition-all duration-200 hover:-translate-y-1'>
                 <img src={fb} className='absolute left-3 h-9 w-10'/>
                 <div>Continue with Facebook</div>
               </div>
-              {/* Apple */}
+             
               <div style={{ backgroundColor: "#1c1c1c"}} className='relative h-12 w-full max-w-md flex items-center justify-center rounded-md text-white mb-10 transition-all duration-200 hover:-translate-y-1 '>
                 <img src={apple} className='absolute left-3 h-9 w-10'/>
                 <div>Continue with Apple</div>
