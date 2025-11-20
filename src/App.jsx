@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div>
         {/* Navbar */}
-        <nav className="bg-blue-500 text-white p-4 flex gap-4">
+        <nav className="bg-blue-500 text-black p-4 flex gap-4">
           <Link to="/log">Log</Link>
           <Link to="/signup">Signup</Link>
           <Link to="/upgrade">Upgrade</Link>
