@@ -3,6 +3,7 @@ import logo from './assets/images/logo.png';
 import Google from './assets/images/Google.png';
 import fb from './assets/images/fb.png';
 import apple from './assets/images/apple.png';
+import { Link } from 'react-router-dom';
 
 const Log = () => {
   return (
@@ -16,7 +17,8 @@ const Log = () => {
         
           <div className='mt-20 flex flex-col sm:flex-row items-center justify-center gap-5 font-bold text-2xl'>
             <span className='border-b-4 rounded border-blue-700 text-black-500'>Log in</span>
-            <span className='text-gray-500'>Sign up</span>
+            <Link to="/signup">
+            <span className='text-gray-500'>Sign up</span></Link>
           </div>
     
         
@@ -55,6 +57,7 @@ const Log = () => {
               <div>Continue with Apple</div>
             </div>
           </div>
+          <div>web</div>
         </div>
   )
 }
