@@ -50,7 +50,7 @@ const Log = () => {
               <div>Continue with Facebook</div>
             </div>
           
-            <div style={{ backgroundColor: "#1c1c1c"}} className='relative h-12 w-full max-w-md flex items-center justify-center rounded-md text-white transition-all duration-200 hover:-translate-y-1'>
+            <div style={{ backgroundColor: "#1c1c1c"}} className='relative h-12 w-full max-w-md flex items-center justify-center rounded-md text-white transition-all duration-200 hover:-translate-y-1 mb-10'>
               <img src={apple} className='absolute left-3 h-9 w-10'/>
               <div>Continue with Apple</div>
             </div>
